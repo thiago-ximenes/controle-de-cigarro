@@ -4,7 +4,7 @@ todaybr = today.strftime('%d/%m/%Y')
 print(todaybr)
 estoque = 'DIGITE ABAIXO QUANTOS CIGÁRROS HÁ NO ESTOQUE:'
 print(estoque)
-print('-'*len(estqoue))
+print('-'*40)
 derbyazul = int(input('Digite quantos \033[44mDERBY AZUL\033[m existe em estoque: '))
 derbyprata = int(input('Digite quantos \033[41mDERBY VERMELHO\033[m existe em estoque: '))
 derbyverm = int(input('Digite quantos \033[47;30mDERBY PRATA\033[m existe em estoque: '))
@@ -111,34 +111,33 @@ tot23 = 8.75 * vend23
 # resultado total de venda
 totg = tot + tot1 + tot2 + tot3 + tot4 + tot5 + tot6 + tot7 + tot8 + tot9 + tot10 + tot11 + tot12 + tot13 + tot14 + tot15 + tot16 + tot17 + tot18 + tot19 + tot20 + tot21 + tot22 + tot23
 # Aqui eu mostro o resultado total
-print('''
-| ESTOQUE | ENTRADA | TOTAL | RESTANTE | VENDIDOS | TOTAL R$|
-|{:^9}|         |{:^7}|{:^10}|{:^10}|{:^9}| 
-|{:^9}|         |{:^7}|{:^10}|{:^10}|{:^9}| 
-|{:^9}|         |{:^7}|{:^10}|{:^10}|{:^9}| 
-|{:^9}|         |{:^7}|{:^10}|{:^10}|{:^9}| 
-|{:^9}|         |{:^7}|{:^10}|{:^10}|{:^9}| 
-|{:^9}|         |{:^7}|{:^10}|{:^10}|{:^9}| 
-|{:^9}|         |{:^7}|{:^10}|{:^10}|{:^9}| 
-|{:^9}|         |{:^7}|{:^10}|{:^10}|{:^9}| 
-|{:^9}|         |{:^7}|{:^10}|{:^10}|{:^9}| 
-|{:^9}|         |{:^7}|{:^10}|{:^10}|{:^9}| 
-|{:^9}|         |{:^7}|{:^10}|{:^10}|{:^9}| 
-|{:^9}|         |{:^7}|{:^10}|{:^10}|{:^9}| 
-|{:^9}|         |{:^7}|{:^10}|{:^10}|{:^9}| 
-|{:^9}|         |{:^7}|{:^10}|{:^10}|{:^9}| 
-|{:^9}|         |{:^7}|{:^10}|{:^10}|{:^9}| 
-|{:^9}|         |{:^7}|{:^10}|{:^10}|{:^9}| 
-|{:^9}|         |{:^7}|{:^10}|{:^10}|{:^9}| 
-|{:^9}|         |{:^7}|{:^10}|{:^10}|{:^9}| 
-|{:^9}|         |{:^7}|{:^10}|{:^10}|{:^9}| 
-|{:^9}|         |{:^7}|{:^10}|{:^10}|{:^9}| 
-|{:^9}|         |{:^7}|{:^10}|{:^10}|{:^9}| 
-|{:^9}|         |{:^7}|{:^10}|{:^10}|{:^9}| 
-|{:^9}|         |{:^7}|{:^10}|{:^10}|{:^9}| 
-|{:^9}|         |{:^7}|{:^10}|{:^10}|{:^9}| 
+print('| ESTOQUE | ENTRADA | TOTAL | RESTANTE | VENDIDOS | TOTAL R$|')
+print('|{:^9}|         |{:^7}|{:^10}|{:^10}|{:^9}|'.format(derbyazul, derbyazul, derbyazuls, vend, tot))
+print('|{:^9}|         |{:^7}|{:^10}|{:^10}|{:^9}|')
+print('|{:^9}|         |{:^7}|{:^10}|{:^10}|{:^9}|') 
+print('|{:^9}|         |{:^7}|{:^10}|{:^10}|{:^9}|')
+print('|{:^9}|         |{:^7}|{:^10}|{:^10}|{:^9}|') 
+print('|{:^9}|         |{:^7}|{:^10}|{:^10}|{:^9}|') 
+print('|{:^9}|         |{:^7}|{:^10}|{:^10}|{:^9}|')
+print('|{:^9}|         |{:^7}|{:^10}|{:^10}|{:^9}|') 
+print('|{:^9}|         |{:^7}|{:^10}|{:^10}|{:^9}|')
+print('|{:^9}|         |{:^7}|{:^10}|{:^10}|{:^9}|')
+print('|{:^9}|         |{:^7}|{:^10}|{:^10}|{:^9}|')
+print('|{:^9}|         |{:^7}|{:^10}|{:^10}|{:^9}|')
+print('|{:^9}|         |{:^7}|{:^10}|{:^10}|{:^9}|')
+print('|{:^9}|         |{:^7}|{:^10}|{:^10}|{:^9}|')
+print('|{:^9}|         |{:^7}|{:^10}|{:^10}|{:^9}|')
+print('|{:^9}|         |{:^7}|{:^10}|{:^10}|{:^9}|')
+print('|{:^9}|         |{:^7}|{:^10}|{:^10}|{:^9}|')
+print('|{:^9}|         |{:^7}|{:^10}|{:^10}|{:^9}|')
+print('|{:^9}|         |{:^7}|{:^10}|{:^10}|{:^9}|')
+print('|{:^9}|         |{:^7}|{:^10}|{:^10}|{:^9}|')
+print('|{:^9}|         |{:^7}|{:^10}|{:^10}|{:^9}|')
+print('|{:^9}|         |{:^7}|{:^10}|{:^10}|{:^9}|')
+print('|{:^9}|         |{:^7}|{:^10}|{:^10}|{:^9}|')
+print('|{:^9}|         |{:^7}|{:^10}|{:^10}|{:^9}|')
+print()
+print('TOTAL GERAL: R$ {:.2f}'.format(totg))
 
-TOTAL GERAL: R$ {:.2f}
 
-
-'''.format(derbyazul, derbyazul, derbyazuls, vend, tot, derbyverm, derbyverm, derbyverms, vend1, tot1,derbyprata, derbyprata,derbypratas, vend2, tot2,hollverm, hollverm, hollverms,vend3, tot3, hollazul, hollazul, hollazuls, vend4, tot4, hollmenta, hollmenta, hollmentas, vend5, tot5, kentvermmaco, kentvermmaco, kentvermmacos, vend6, tot6, kentvermbox, kentvermbox, kentvermboxs, vend7, tot7, kentazulmaco, kentazulmaco, kentazulmacos, vend8, tot8, kentazulbox, kentazulbox, kentazulboxs, vend9, tot9, carlton, carlton, carltons, vend10, tot10, rothazul, rothazul, rothazuls, vend11, tot11, rothverm, rothverm, rothverms, vend12, tot12, rothprata, rothprata, rothpratas, vend13, tot13, lustazul, lustazul, lustazuls, vend14, tot14, lustdb, lustdb, lustdbs, vend15, tot15, ritz, ritz, ritzs, vend16, tot16, plazac, plazac, plazacs, vend17, tot17, plazal, plazal, plazals, vend18, tot18, luxor, luxor, luxors, vend19, tot19, chestazul, chestazul, chestazuls, vend20, tot20, chestverm, chestverm, chestverms,vend21, tot21, malbbverm, malbbverm, malbbverms, vend22,tot22, malbbg, malbbg, malbbgs, vend23, tot23))
+'''.format(, derbyverm, derbyverm, derbyverms, vend1, tot1,derbyprata, derbyprata,derbypratas, vend2, tot2,hollverm, hollverm, hollverms,vend3, tot3, hollazul, hollazul, hollazuls, vend4, tot4, hollmenta, hollmenta, hollmentas, vend5, tot5, kentvermmaco, kentvermmaco, kentvermmacos, vend6, tot6, kentvermbox, kentvermbox, kentvermboxs, vend7, tot7, kentazulmaco, kentazulmaco, kentazulmacos, vend8, tot8, kentazulbox, kentazulbox, kentazulboxs, vend9, tot9, carlton, carlton, carltons, vend10, tot10, rothazul, rothazul, rothazuls, vend11, tot11, rothverm, rothverm, rothverms, vend12, tot12, rothprata, rothprata, rothpratas, vend13, tot13, lustazul, lustazul, lustazuls, vend14, tot14, lustdb, lustdb, lustdbs, vend15, tot15, ritz, ritz, ritzs, vend16, tot16, plazac, plazac, plazacs, vend17, tot17, plazal, plazal, plazals, vend18, tot18, luxor, luxor, luxors, vend19, tot19, chestazul, chestazul, chestazuls, vend20, tot20, chestverm, chestverm, chestverms,vend21, tot21, malbbverm, malbbverm, malbbverms, vend22,tot22, malbbg, malbbg, malbbgs, vend23, tot23))'''
