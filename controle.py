@@ -2,27 +2,33 @@
 from datetime import date
 import estoque as est
 import pandas as pd
-import os
 import json
-
+from estoque import clear
 
 today = date.today()
 todaybr = today.strftime('%d/%m/%Y')
-def clear():
-    return os.system('cls' if os.name == 'nt' else 'clear')
+
+
+
+
+estoque = est.getEstoque()
+est.atualizeEstoque(estoque)
 
 #cig = ['DERBY AZUL','DERBY VERMELHO', 'DERBY PRATA', 'HOLLYWOOD VERMELHO', 'HOLLYWOOD AZUL', 'HOLLYWOOD MENTA', 'KENT VERMELHO MAÇO', 'KENT VERMELHO BOX', 'KENT AZUL MAÇO', 'KENT AZUL BOX', 'CARLTON', 'ROTHMANS AZUL', 'ROTHMANS VERMELHO', 'LUCKY STRIKE AZUL', 'LUCKY STRIKE DOUBLECLICK', 'RITZ', 'PLAZA CURTO', 'PLAZA LONGO', 'LUXOR', 'CHESTERFIELD AZUL', 'CHESTERFIELD VERMELHO', 'MALBORO BOX VERMELHO', 'MALBORO BOX GOLD', 'ROTHMANS PRATA']
 #pr = [6.75, 6.75, 6.75, 7.25, 7.25, 7.25, 8, 8.25, 8, 8.25, 8.75, 5.25, 5.25, 7.25, 7.75, 6.75, 6.75, 6.75, 6.75, 5.25, 5.25, 8.75, 8.75, 5.25 ]
-estoque = est.getEstoque()
 rest = {}
 total = {}
-linhas = '-'*60
+def linhas():
+    print('-' * 60)
+
 
 print('\n\n\n')
 print(( todaybr + " VERIFIQUE O ESTOQUE ABAIXO").center(65))
-print(linhas)
+linhas()
 est.printEstoque(estoque)
-input()
+linhas()
+continuar = str(input('O estoque está correto? [S/N]: ')).strip().lower()[0]
+if continuar ==
 clear()
     
 for i in estoque:
